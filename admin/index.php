@@ -16,7 +16,8 @@
         1
     </div>
     <div class="right-header">
-        2
+        <!-- <input type="text" value="0"> -->
+        <i class="fas fa-bars " id="sideBar"></i>
     </div>
 </div>
 <div class="main-content">
@@ -27,13 +28,13 @@
                  <i class="fas fa-align-center"></i> &nbsp;Menu
                 </li>
                 <li>
-                    Content
+                    <i class="fas fa-book"></i>&nbsp;Content
                 </li>
                 <li>
-                    Advertise
+                    <i class="fas fa-ad"></i>&nbsp;Advertise
                 </li>
                 <li>
-                    Setting
+                    <i class="fas fa-cog"></i>&nbsp;Setting<i class="fas fa-chevron-down arrow-down-right"></i>
                 </li>
             </ul>
         </div>
@@ -42,13 +43,6 @@
         2
     </div>
 </div>
-
-    
-
-
-
-
-
 <script src="js/app.js"></script>
 </body>
 </html>
