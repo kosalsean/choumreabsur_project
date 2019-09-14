@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  float: left;
+  width: 100%;
+  height: 50px;
+  background-color: #053541;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-family: "Hanuman", serif;
+}
+.left-header {
+  width: 19%;
+  float: left;
+  height: 100%;
+}
+.right-header {
+  width: 80%;
+  height: 100%;
+  float: left;
+  border-left: 1px solid #fff;
+}
+.main-content {
+  width: 100%;
+}
+.left-menu {
+  width: 19%;
+  height: 100%;
+  position: fixed;
+  top: 50px;
+  background-color: #334a52;
+}
+.menu ul li {
+  padding: 10px 20px;
+  color: rgb(245, 245, 245);
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1.5px;
+  font-size: 16px;
+}
