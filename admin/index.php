@@ -16,8 +16,20 @@
         1
     </div>
     <div class="right-header">
-        <!-- <input type="text" value="0"> -->
         <i class="fas fa-bars " id="sideBar"></i>
+        <div class="title">
+            <span>My Title</span>
+        </div>
+        <div class="user-email">
+            <span>
+                example@gamail.com.kh.edu
+            </span>
+        </div>
+        <div class="user-icon">
+            <ul>
+                <li><img src="image/user-image.png"></li>
+            </ul>
+        </div>
     </div>
 </div>
 <div class="main-content">
@@ -25,7 +37,7 @@
         <div class="menu">
             <ul>
                 <li>
-                 <i class="fas fa-align-center"></i> &nbsp;Menu
+                 <i class="fas fa-align-center"></i>&nbsp;Menu
                 </li>
                 <li>
                     <i class="fas fa-book"></i>&nbsp;Content
@@ -33,13 +45,62 @@
                 <li>
                     <i class="fas fa-ad"></i>&nbsp;Advertise
                 </li>
-                <li>
+                <li id = "setting">
                     <i class="fas fa-cog"></i>&nbsp;Setting<i class="fas fa-chevron-down arrow-down-right"></i>
                 </li>
+                 <div class="submenu">
+                        <ul>
+                            <li>
+                                <i class="far fa-user"></i>&nbsp;User
+                            </li>
+                             <li>
+                                <i class="fas fa-parking"></i>&nbsp;Permission
+                            </li>
+                             <li>
+                                <i class="fas fa-unlock-alt"></i>&nbsp;Change Password
+                            </li>
+                             <li>
+                                <i class="fab fa-cuttlefish"></i>&nbsp;Theme
+                            </li>
+                        </ul>
+                </div>
             </ul>
         </div>
     </div>
-    <div class="content">
+    <div class="small-left-menu">
+        <div class="menu-icon">
+            <ul>
+                <li>
+                    <i class="fas fa-align-center"></i>
+                </li>
+                <li>
+                    <i class="fas fa-book"></i>
+                </li>
+                <li>
+                    <i class="fas fa-ad"></i>
+                </li>
+                <li id="setting-icon">
+                    <i class="fas fa-cog"></i>
+                </li>
+                <div class="small-submenu">
+                        <ul>
+                            <li>
+                                <i class="far fa-user"></i>
+                            </li>
+                             <li>
+                                <i class="fas fa-parking"></i>
+                            </li>
+                             <li>
+                                <i class="fas fa-unlock-alt"></i>
+                            </li>
+                             <li>
+                                <i class="fab fa-cuttlefish"></i>
+                            </li>
+                        </ul>
+                    </div>
+            </ul>
+        </div>
+    </div>    <div class="content">
         2
     </div>
 </div>
