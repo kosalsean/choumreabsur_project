@@ -149,10 +149,6 @@ body {
   margin: 0;
   list-style: none;
 }
-.left-menu,
-.left-header {
-  min-width: 259px;
-}
 .menu-icon ul li {
   padding: 15px 13px;
   color: #fff;
