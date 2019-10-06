@@ -23,6 +23,7 @@ body {
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
 }
+/*!      right-header code ...............................................*/
 .right-header {
   width: 82%;
   height: 100%;
@@ -45,27 +46,31 @@ body {
   letter-spacing: 1px;
 }
 .right-header .user-email {
-  width: 25%;
+  width: 20%;
   padding: 15px 50px;
   padding-left: 4%;
   float: left;
   color: white;
   font-family: "Roboto", "sans-serif";
+ 
 }
 .right-header .user-icon {
   width: 10%;
   float: left;
-  padding: 5px;
+  padding: 6px;
+  padding-top: 8px;
+
 }
 .right-header .user-icon ul li {
   float: right;
-  width: 40px;
-  height: 40px;
-  border-radius: 50px;
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  -ms-border-radius: 50px;
-  -o-border-radius: 50px;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
   overflow: hidden;
 }
 .right-header .user-icon ul li img {
@@ -82,6 +87,7 @@ body {
 .right-header i:hover {
   opacity: 0.8;
 }
+/*! end right header code............................................................ */
 .main-content {
   width: 100%;
 }
