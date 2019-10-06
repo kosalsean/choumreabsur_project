@@ -38,7 +38,8 @@ body {
 .right-header .title {
   float: left;
   width: 50%;
-  padding: 13px 15px;
+  padding-top: 1%;
+  padding-left: 10px;
 }
 .right-header .title span {
   font-family: "Roboto", sans-serif;
@@ -147,6 +148,10 @@ body {
   padding: 0;
   margin: 0;
   list-style: none;
+}
+.left-menu,
+.left-header {
+  min-width: 260px;
 }
 .menu-icon ul li {
   padding: 15px 13px;
