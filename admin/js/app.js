@@ -1,10 +1,26 @@
 $(document).ready(function () {
     var option = 0;
     var opt2 = 0;
+    var opt;
+    $('.user-icon').click(function () {
+        if (opt2 == 0) {
+            $('.user-box').show();
+            opt2++;
+        } else {
+            $('.user-box').hide();
+            opt2--;
+        }
+    });
     $('#sideBar').click(function () {
         if (option == 0) {
             $('.left-menu').css({
                 'left': '-270px'
+            });
+            $('.content').css({
+                'width': '96.8%'
+            });
+            $('.right-action').css({
+                'width': '30.05%'
             });
             $('.left-header').css({
                 'display': 'none'
@@ -19,6 +35,12 @@ $(document).ready(function () {
         } else if (option == 1) {
             $('.left-menu').css({
                 'left': '0px'
+            });
+            $('.content').css({
+                'width': '83%'
+            });
+            $('.right-action').css({
+                'width': '30%'
             });
             $('.left-header').css({
                 'left': '0px'
@@ -87,6 +109,11 @@ $(document).ready(function () {
         eThis.css({
             'background-color': '#499082'
         });
+    });
+    // ! ======================= click li menu ========================
+    $('.menu,.menu-icon').on('click', 'ul li', function () {
+        This = $(this);
+        alert(This.data('opt'));
     });
 
 });

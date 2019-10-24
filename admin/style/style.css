@@ -88,6 +88,7 @@ body {
 }
 /*! end right header code............................................................ */
 .main-content {
+  float: left;
   width: 100%;
 }
 .left-menu {
@@ -118,7 +119,92 @@ body {
   background-color: #476174 !important;
 }
 .content {
-  width: 100%;
+  width: 83%;
+  transition: 0.3s;
+  float: right;
+  padding: 2px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.left-action {
+  background-color: #334a52;
+  height: 40px;
+  width: 69.8%;
+  border-left: 2px solid #fff;
+  float: left;
+}
+.left-action ul,
+.right-action ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.left-action ul li {
+  /*padding: 5px 10px;
+  */
+  margin-top: 3px;
+  border-radius: 3px;
+  margin-left: 10px;
+  cursor: pointer;
+  width: 70px;
+  color: #fff;
+  background-color: rgb(45, 111, 115);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+.right-action {
+  background-color: #334a52;
+  height: 40px;
+  width: 30%;
+  float: right;
+}
+
+.right-action ul li {
+  margin-top: 4px;
+  background-color: rgb(45, 111, 115);
+  cursor: pointer;
+  width: 35px;
+  padding: 0px;
+  margin-left: 20px;
+  float: left;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+.num-filter {
+  padding: 1.5px !important;
+  width: 100px !important;
+  margin-right: -10px;
+  margin-left: 10px !important;
+}
+span{
+  color: #fff !important;
+  margin-left: 27px;
+  
+}
+.x2 {
+  padding-top: 5px;
+  padding-left: 10px;
+  font-size: 20px;
+  color: #fff;
+}
+.right-action ul li select {
+  padding: 6.8px;
+  border-radius: 3px;
+  background-color: rgb(45, 111, 115);
+  color: #fff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
 }
 .submenu,
 .small-submenu {
@@ -158,4 +244,90 @@ body {
 }
 .menu-icon ul li:hover {
   background-color: #476174 !important;
+}
+/* ! ============== user box ================ */
+.user-box {
+  display: none;
+  width: 330px;
+  height: 180px;
+  top: 46px;
+  right: 22px;
+  position: absolute;
+  border-radius: 3px;
+  background-color: #fff;
+  box-shadow: 0px 1px 2px 1px #ccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  overflow: hidden;
+}
+.user-box .profile-box {
+  width: 100%;
+  height: 130px;
+}
+.user-box .profile-box .profile {
+  width: 40%;
+  float: left;
+}
+.user-box .profile-box .profile .profile-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin: 20% 20%;
+}
+.user-box .profile-box .profile .profile-image img {
+  width: 100%;
+  height: 100%;
+}
+.user-box .profile-box .user-detail {
+  padding-top: 35px;
+  width: 60%;
+  float: left;
+}
+.user-box .profile-box .user-detail span {
+  font-family: "roboto";
+  font-size: 16px;
+  font-weight: bold;
+}
+.user-box .profile-box .user-detail p {
+  margin-top: -10px;
+}
+.user-box .activity-box {
+  width: 100%;
+  height: 60px;
+  float: left;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ccc;
+}
+.user-box .activity-box .btnChange {
+  float: left;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.user-box .activity-box .btnSignout {
+  float: right;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+.user-box .activity-box .btnSignout,
+.user-box .activity-box .btnChange {
+  border-radius: 3px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  padding: 3px 10px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+.user-box .activity-box .btnSignout:hover,
+.user-box .activity-box .btnChange:hover {
+  background: #c6c8c9;
 }

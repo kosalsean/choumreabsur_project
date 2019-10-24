@@ -32,11 +32,12 @@
         </div>
     </div>
 </div>
+
 <div class="main-content">
     <div class="left-menu">
         <div class="menu">
             <ul>
-                <li>
+                <li data-opt = "0" >
                  <i class="fas fa-align-center"></i>&nbsp;Menu
                 </li>
                 <li>
@@ -70,7 +71,7 @@
     <div class="small-left-menu">
         <div class="menu-icon">
             <ul>
-                <li>
+                <li data-opt = "0" >
                     <i class="fas fa-align-center"></i>
                 </li>
                 <li>
@@ -100,8 +101,53 @@
                     </div>
             </ul>
         </div>
-    </div>    <div class="content">
-        2
+    </div>    
+    <div class="content">
+        <div class="pagination">
+            <div class="left-action">
+            <ul>
+                <li><i class="fas fa-plus-square x2"></i> Add</li>
+            </ul>
+        </div>
+        <div class="right-action">
+            <ul>
+                <li>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                </li>
+                <li><i class="fas fa-angle-left x2"></i></li>
+                <li class="num-filter">
+                   <span>1/1/5</span> 
+                </li>
+                <li><i class="fas fa-angle-right x2"></i></li>
+            </ul>
+        </div>
+        </div>
+       
+    </div>
+</div>
+<div class="user-box">
+    <div class="profile-box">
+        <div class="profile">
+            <div class="profile-image">
+                <img src="image/user-image.png">
+            </div>
+        </div>
+        <div class="user-detail">
+            <span>Kosal User</span>
+            <p>kosal@gmail.com.kh.edu</p>
+        </div>
+    </div>
+    <div class="activity-box">
+        <div class="btnChange">
+            Change account
+        </div>
+         <div class="btnSignout">
+            Sign out
+         </div>
     </div>
 </div>
 <script src="js/app.js"></script>
