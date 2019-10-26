@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style/fontawesome-free-5.3.1-web/css/all.min.css">
     <link href="https://fonts.googleapis.com/css?family=Hanuman|Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
+     <link rel="stylesheet" href="style/query.css">
     <title>Document</title>
 </head>
 <body>
@@ -103,28 +104,28 @@
         </div>
     </div>    
     <div class="content container-fluid">
-        <div class="pagination">
+        <div class="pagination1">
             <div class="left-action">
-            <ul>
-                <li><i class="fas fa-plus-square x2"></i> Add</li>
-            </ul>
-        </div>
-        <div class="right-action">
-            <ul>
-                <li>
-                    <select>
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                    </select>
-                </li>
-                <li><i class="fas fa-angle-left x2"></i></li>
-                <li class="num-filter">
-                   <span>1/1/5</span> 
-                </li>
-                <li><i class="fas fa-angle-right x2"></i></li>
-            </ul>
-        </div>
+                <ul>
+                    <li><i class="fas fa-plus-square x2"></i> Add</li>
+                </ul>
+             </div>
+            <div class="right-action">
+                <ul>
+                    <li>
+                        <select>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                        </select>
+                    </li>
+                    <li><i class="fas fa-angle-left x2"></i></li>
+                    <li class="num-filter">
+                    <span>1/1/5</span> 
+                    </li>
+                    <li><i class="fas fa-angle-right x2"></i></li>
+                </ul>
+            </div>
         </div>
        
     </div>
