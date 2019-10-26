@@ -121,7 +121,7 @@
                     </li>
                     <li><i class="fas fa-angle-left x2"></i></li>
                     <li class="num-filter">
-                    <span>1/1/5</span> 
+                        1/1/5
                     </li>
                     <li><i class="fas fa-angle-right x2"></i></li>
                 </ul>
