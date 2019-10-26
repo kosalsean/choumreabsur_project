@@ -102,7 +102,7 @@
             </ul>
         </div>
     </div>    
-    <div class="content">
+    <div class="content container-fluid">
         <div class="pagination">
             <div class="left-action">
             <ul>
