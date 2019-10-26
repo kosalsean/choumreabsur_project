@@ -11,6 +11,18 @@
   .rigth-action {
     width: 29%;
   }
+  .right-action ul li {
+    height: 33px;
+    margin-top: 4px;
+  }
+  .num-filter {
+    padding: 0px !important;
+    padding-top: 20px;
+  }
+  .num-filter span {
+    margin-top: 3px;
+    padding-top: 5px;
+  }
 }
 /* Big tablet to 1200px (widths smaller taht the 1140px row) */
 @media only screen and (max-width: 1200px) {
